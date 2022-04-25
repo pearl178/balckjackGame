@@ -1,9 +1,9 @@
 
-# ############## Blackjack Project #####################
+# Blackjack Project 
 
 
 
-# ############## Blackjack House Rules #####################
+# Blackjack House Rules 
 
 #The deck is unlimited in size. 
 #There are no jokers. 
