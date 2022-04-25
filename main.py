@@ -43,7 +43,9 @@ def compare_scores(user,computer):
 def check_ace(cards):
   if 11 in cards:
     if sum(cards)>21:
-      score = sum(cards)-10
+      cards.remove(11)
+      cards.append(1)
+      score = sum(cards)
     else:
       score = sum(cards)
   else:
